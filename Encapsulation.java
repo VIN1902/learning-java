@@ -23,7 +23,7 @@ class Human {
     }
 }
 
-public class GetterSetter {
+public class Encapsulation {
     public static void main (String a[]) {
         Human vikas = new Human(22);
         // System.out.println("Vikas age is " + vikas.age); works when 'age' is non-private in Human

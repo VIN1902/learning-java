@@ -39,3 +39,17 @@ int num = 101; // decimal
 int num = 0x7E; // Hexadecimal
 int num = 10_000; // visual clarity output is 10000
 ```
+# Access Modifiers
+
+|                           	| Public 	| Private 	| Default 	| Protected 	|
+|---------------------------	|--------	|---------	|---------	|-----------	|
+| same class                	| yes    	| yes     	| yes     	| yes       	|
+| same package subclass     	| yes    	| no      	| yes     	| yes       	|
+| same package non-subclass 	| yes    	| no      	| yes     	| yes       	|
+| diff package subclass     	| yes    	| no      	| no      	| yes       	|
+| diff package non-subclass 	| yes    	| no      	| no      	| no        	|
+
+# Polymorphism
+- means many behavior (it will change based on situation)
+- overloading = compile time polymorphism
+- overriding = run time polymorphism
